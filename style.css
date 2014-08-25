@@ -1,0 +1,21 @@
+
+/**
+ * SaaSquatch logo.
+ */
+
+.logo[data-logo="SaaSquatch"] {
+  width: 4.599687507511839em;
+}
+
+.logo[data-logo="SaaSquatch"] > * {
+  background-image: url(images/logo.svg);
+  margin: -.05em 0;
+}
+
+.logo[data-logo="SaaSquatch"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="SaaSquatch"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
